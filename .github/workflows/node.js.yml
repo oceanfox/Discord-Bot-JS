@@ -24,5 +24,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+      env: 
+        DISCORD_TOKEN: ${{ DISCORD_BOT_TOKEN }}
     - run: npm i
     - run: node .
