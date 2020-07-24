@@ -12,5 +12,9 @@
   },
   "devDependencies": {
     "eslint": "^7.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oceanfox/Discord-Bot-JS.git"
   }
 }
