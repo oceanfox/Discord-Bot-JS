@@ -3,7 +3,7 @@ const {prefix,token} = require('./config.json');
 const bot = new Client();
 var logoutOfDiscord = false;
 
-
+var token = process.env.DISCORD_TOKEN;
 //bot.destroy(token);
 
 
