@@ -20,4 +20,4 @@ if (logoutOfDiscord == true){
     bot.destroy();
 }
 
-bot.login(token);
+bot.login(process.env.DISCORD_TOKEN);
